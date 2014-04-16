@@ -90,7 +90,7 @@ BELOVED_RUBY_VERSION="1.9.3-p448"
 SRC_DIR=~/.wdi-installfest
 SCRIPTS=$SRC_DIR/scripts
 SETTINGS=$SRC_DIR/settings
-INSTALL_REPO=https://github.com/ga-instructors/installfest_script.git
+INSTALL_REPO=https://github.com/vanderhoop/installfest_script.git
 # Determine OS version ################################################################
 
 osx_version=$(sw_vers -productVersion)

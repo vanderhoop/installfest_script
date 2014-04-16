@@ -7,7 +7,7 @@ A work in progress to automate the set up of a student's development machine.
 Paste this script into a Terminal prompt:
 
 ```
-bash <(curl -sL https://raw.github.com/ga-instructors/installfest_script/master/install.sh)
+bash <(curl -sL https://raw.github.com/vanderhoop/installfest_script/dc_1/install.sh)
 ```
 
 The script first runs any software updates and then checks for Xcode.
