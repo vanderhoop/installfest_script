@@ -55,7 +55,7 @@ is_not_this () {
 echo "Running some checks on how our Install went"
 
 is_not_this "brew doctor"           "ready to brew."
-is_not_this "ruby -v"               "2.1.0"
+is_not_this "ruby -v"               "1.9.3-p448"
 is_not_this "gem list pry -i"       "true"
 is_not_this "ssh -T git@github.com" "successfully authenticated"
 
@@ -72,7 +72,7 @@ dost_thou_have ~/.bash_profile
 dost_thou_have ~/.gitignore_global
 dost_thou_have ~/.gitconfig
 dost_thou_have ~/Library/Application\ Support/Sublime\ Text\ 2/Installed\ Packages
-dost_thou_have ~/dev/wdi
+dost_thou_have ~/code/wdi
 
 # Applications
 what_news_of "Spectacle"

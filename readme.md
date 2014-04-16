@@ -7,7 +7,7 @@ A work in progress to automate the set up of a student's development machine.
 Paste this script into a Terminal prompt:
 
 ```
-bash <(curl -s http://ga.co/installfestosx)
+bash <(curl -sL https://raw.github.com/ga-instructors/installfest_script/master/install.sh)
 ```
 
 The script first runs any software updates and then checks for Xcode.
@@ -26,7 +26,7 @@ If Xcode is installed the script continues.
 ##### For Ubuntu Linux:
 
 ```
-bash <(curl -s http://ga.co/installfestubuntu)
+bash <(curl -sL http://ga.co/installfestubuntu)
 ```
 
 **Don't use yet!** Is not in working condition.
