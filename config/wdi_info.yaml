@@ -1,38 +1,33 @@
 producers:
 
-- name:   Kristin Eugenio
-  email:  kristin.eugenio@generalassemb.ly
-- name:   Stephanie Morillo
-  email:  stephanie.morillo@generalassemb.ly
+- name:   JD Maresco
+  email:  jdm@generalassemb.ly
 
 instructors:
 
-- name:   Max Cantor
-  email:  max.cantor@generalassemb.ly
-- name:   David Han
-  email:  david.han@generalassemb.ly
-- name:   Phillip Lamplugh
-  email:  phillip.lamplugh@generalassemb.ly
+- name:   Peter Lai
+  email:  peter.lai@generalassemb.ly
+- name:   Greg MacWilliam
+  email:  greg.macwilliam@generalassemb.ly
+- name:   Travis Vander Hoop
+  email:  travis@generalassemb.ly
 
 locations:
 
-- name:     GA West
-  address:  10 E 21st, New York, NY 10010
-  hours:    8am to 8pm
-- name:     GA East
-  address:  902 Broadway, New York, NY 10010
-  hours:    8am to 8pm
-- name:     GA Union Square
-  address:  41 Union Square West, New York, NY 10010
-  hours:    8am to 8pm
+- name:     General Assembly @ 1776
+  address:  1133 15th St NW, 8th Floor, Washington, DC 20005
+  hours:    8:30am to 5:30pm
+- name:     1776 DC
+  address:  1133 15th St NW, 12th Floor, Washington, DC 20005
+  hours:    5:30pm to 10:00pm
 
 office_hours:
 
-- mondays:    6pm to 8pm
-  instructor: Max
 - tuesdays:   6pm to 8pm
-  instructor: Phil
+  instructor: Greg
 - wednesdays: 6pm to 8pm
-  instructor: David
+  instructor: Peter
+- thursdays:  6pm to 8pm
+  instructor: Travis
 
-homework_lead: davidhan527
+homework_lead: vanderhoop
