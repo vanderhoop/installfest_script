@@ -43,6 +43,10 @@ brew install qt4 #............... qt for mavericks
 # For Ruby
 brew install rbenv #............. our ruby version manager
 brew install ruby-build #........ provides an `rbenv install` command
+brew install https://raw.githubusercontent.com/Homebrew/homebrew/0181c8a1633353affefabe257c170edbd6d7c008/Library/Formula/readline.rb
+# ^^^ installs old version of readline.
+#     Current version of readline doesn't allow updating to Ruby 2.1.1 with ruby-build.
+#     See https://github.com/sstephenson/ruby-build/issues/550
 
 # # Additional Players
 # brew install rbenv-default-gems #  automatically install gems every time you install a new version of Ruby.

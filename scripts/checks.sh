@@ -55,7 +55,7 @@ is_not_this () {
 echo "Running some checks on how our Install went"
 
 is_not_this "brew doctor"           "ready to brew."
-is_not_this "ruby -v"               "2.1.0"
+is_not_this "ruby -v"               "2.1.1"
 is_not_this "gem list pry -i"       "true"
 is_not_this "ssh -T git@github.com" "successfully authenticated"
 
