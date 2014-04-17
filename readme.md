@@ -23,15 +23,16 @@ If Xcode is installed the script continues.
 - Sets up RBenv and installs bundler, pry and rails
 - Adds solarized to Terminal
 
+Note: if upon running brew doctor you are advised to run brew update, and upon running brew update receive errors regarding file permissions, run:
+
+```
+chown -R <username>:admin /usr/local
+```
+
 ##### For Ubuntu Linux:
 
 ```
 bash <(curl -sL http://ga.co/installfestubuntu)
-```
-Note: if upon running brew doctor you are advised to run brew update, and upon running brew update receive errors regarding file permissions, run:
-
-```
-chown -R user:admin /usr/local
 ```
 
 **Don't use yet!** Is not in working condition.
