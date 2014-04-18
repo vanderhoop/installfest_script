@@ -373,6 +373,7 @@ source ~/.bash_profile
 source $SCRIPTS/heroku.sh
 npm install -g bower
 npm install -g grunt-cli
+npm install -g mocha
 
 
 # checkpoints

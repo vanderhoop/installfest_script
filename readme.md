@@ -23,21 +23,6 @@ If Xcode is installed the script continues.
 - Sets up RBenv and installs bundler, pry and rails
 - Adds solarized to Terminal
 
-Note: if upon running brew doctor you are advised to run brew update, and upon running brew update receive errors regarding file permissions, run:
-
-```
-sudo chown -R <username>:admin /usr/local
-createdb
-```
-
-##### For Ubuntu Linux:
-
-```
-bash <(curl -sL http://ga.co/installfestubuntu)
-```
-
-**Don't use yet!** Is not in working condition.
-
 ### Why not use a Virtual Environment?
 
 When weighing the options, we decided not use Vagrant to ensure all students were working in a common environment for three main reasons:
