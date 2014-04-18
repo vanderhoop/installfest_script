@@ -26,7 +26,8 @@ If Xcode is installed the script continues.
 Note: if upon running brew doctor you are advised to run brew update, and upon running brew update receive errors regarding file permissions, run:
 
 ```
-chown -R <username>:admin /usr/local
+sudo chown -R <username>:admin /usr/local
+createdb
 ```
 
 ##### For Ubuntu Linux:

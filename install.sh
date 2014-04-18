@@ -9,7 +9,6 @@
 #
 # Author: Phillip Lamplugh, GA Instructor (2014)
 # Contributions: PJ Hughes, GA Instructor (2014)
-#
 
 # Resources
 # https://github.com/divio/osx-bootstrap
