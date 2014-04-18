@@ -371,6 +371,9 @@ source ~/.bash_profile
 
 # heroku keys
 source $SCRIPTS/heroku.sh
+npm install -g bower
+npm install -g grunt-cli
+
 
 # checkpoints
 source $SCRIPTS/checks.sh
