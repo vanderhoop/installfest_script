@@ -84,7 +84,7 @@ function pause_awhile () {
 
 #-------------------------------------------------------------------------------
 MINIMUM_OS="10.7.0"
-BELOVED_RUBY_VERSION="2.1.1"
+BELOVED_RUBY_VERSION="1.9.3-p327"
 
 SRC_DIR=~/.wdi-installfest
 SCRIPTS=$SRC_DIR/scripts
